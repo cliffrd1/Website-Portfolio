@@ -1,4 +1,4 @@
-import { GraduationCap } from "lucide-react"
+import { Github, Instagram, Facebook } from "lucide-react"
 import profilePic from "./assets/profile.png"
 
 function Card() {
@@ -10,18 +10,41 @@ function Card() {
         alt="Clifford Ace Lagata"
       />
       <h2 className="card-title">Clifford Ace Lagata</h2>
-      <p className="card-text">
-        <GraduationCap className="inline-block w-5 h-5 mr-2 mb-1" />
-        IT 4th Year Student
-      </p>
       <div className="card-info">
-        <span className="info">21 years old</span>
+        <span className="info">22 years old</span>
         <span className="info">170 cm</span>
-        <span className="info">Filipino</span>
+      </div>
+      <div className="social-links">
+        <h3>Connect With Me</h3>
+        <div className="social-icons">
+          <a
+            href="https://github.com/cliffrd1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon"
+          >
+            <Github />
+          </a>
+          <a
+            href="https://facebook.com/c1ffo/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon"
+          >
+            <Facebook />
+          </a>
+          <a
+            href="https://instagram.com/x0307ace"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon"
+          >
+            <Instagram />
+          </a>
+        </div>
       </div>
     </div>
   )
 }
 
 export default Card
-

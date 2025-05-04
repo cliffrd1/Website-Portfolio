@@ -8,7 +8,7 @@ function AboutMe() {
       <section className="about-section">
         <h2>Introduction</h2>
         <p>
-        I am an Information Technology student who is passionate in the IT Industry
+        I am an Information Technology graduate who is passionate in the IT Industry
         and explore various fields of technology. I am committed to delivering excellent
         customer service and ensuring efficient operations. With a strong passion for technology
         and a talent for troubleshooting, I specialize in both software and hardware solutions.
@@ -96,23 +96,7 @@ function AboutMe() {
         </div>
       </section>
 
-      <section className="about-section cta-section">
-        <h2>
-          <ExternalLink className="inline-block w-5 h-5 mr-2 mb-1" />
-          Let's Connect
-        </h2>
-        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
-        <div className="contact-info">
-          <div className="contact-item">
-            <Phone className="w-5 h-5" />
-            <span>09686856904</span>
-          </div>
-          <div className="contact-item">
-            <Mail className="w-5 h-5" />
-            <span>lagataclifford@gmail.com</span>
-          </div>
-        </div>
-      </section>
+
     </div>
   )
 }
